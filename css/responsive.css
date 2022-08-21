@@ -1,0 +1,102 @@
+/* For Tablets */
+/* tablet */
+@media only screen and(max-width: 1000px){
+    #section-header{
+        width: 100%;
+        position: relative;
+        float: none;
+    }
+    .header{
+        float: none;
+        position: relative;
+        left: 30%;
+    }
+    .header p{
+        text-align: center;
+    }
+    #our{
+        width: 100%;
+        position: relative;
+        float: none;
+    }
+    .ourstory p{
+        width: 100%;
+    }
+    .ourstory img{
+        padding: 5px;
+        margin: auto;
+    }
+    .ourstory-two img{
+        width: 1000px;
+    }
+}
+
+/* Add a breakpoint at max-width: 1000px */
+@media (max-width: 1000px) {
+    #foto {
+        height: 2550px;
+    }
+    .foto1 img {
+        width: 50%;
+        margin-left: 250px;
+    }
+    #place {
+        height: 762px;
+    }
+    .jadwal-eb {
+        width: 50%;
+        margin-left: 20px;
+    }
+    .jadwal-ec {
+        width: 50%;
+        margin-right: -20px;
+    }
+    .button {
+        width: 50%;
+        padding-left: 70px;
+    }
+    .foto-bahagia img {
+        width: 100%;
+    }
+}
+
+/* For Smartphones */
+/* Add a breakpoint at max-width: 670px */
+@media (max-width: 670px) {
+    
+        #foto {
+            height: 1820px;
+        }
+        .foto1 img {
+            width: 50%;
+            margin-left: 169px;
+        }
+        #place {
+            height: 1327px;
+        }
+        .jadwal-eb {
+            width: 100%;
+        }
+        .jadwal-ec {
+            width: 65%;
+            margin-right: 90px;
+            margin-top: -90px;
+        }
+        .invited {
+            text-align: center;
+        }
+        .text {
+            font-size: 40px;
+            text-align: center;
+        }
+        .button {
+            padding-left: 55px;
+            padding-right: 40px;
+            margin-left: 100px;
+        }
+        .foto-bahagia img {
+            width: 100%;
+        }
+    }
+
+  

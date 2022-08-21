@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Forum&display=swap');
+
+
+p{
+    font-family: 'Forum', cursive; /*contoh pake font*/
+}
+
+h1{
+    font-family: 'Forum', cursive;
+}
+#section-header{
+    background-image: url(../asset/img/1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    height: 620px;
+}
+.header{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    letter-spacing: 0.148em;
+}
+.header h1{
+    font-size: 56px;
+    text-align: center;
+}
+.header p{
+    font-size: 30px;
+}
+.header-title{
+    text-align: center;
+    font-size: 28px;
+}
+#our{
+    max-width: 100%;
+    height: 640px;
+    border: 1px solid #bdb9b7;
+    background-color: #bdb9b7;
+}
+#title-story{
+    font-size: 30px;
+    padding-top: 70px;
+    left: 90px;
+    position: absolute;
+}
+.ourstory img{
+    border: 1px solid black;
+    background-color: #bdb9b7;
+    max-width: 20%;
+    height: auto;
+    padding: 10px;
+    top: 735px;
+    left: 90px;
+    position: absolute;
+}
+.ourstory p{
+    border: 1px solid #bdb9b7;
+    width: 60%;
+    height: 100%;
+    float: right;
+    font-size: 30px;
+    font-family: 'Arial', cursive;
+}
+.ourstory-two img{
+    border: 1px solid black;
+    background-color: #bdb9b7;
+    padding: 10px;
+    left: 40%;
+    top: 900px;
+    max-width: 15%;
+    height: auto;
+}
+
+
+#foto {
+    background-color: #fffcf9;
+    height: 600px;
+}
+
+.foto1  img {
+    float: left;
+    margin-top: 90px;
+    margin-right: 50px;
+    margin-left: 95px;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#place  {
+    background-color: #fffbf7;
+    height: 762px;
+    
+}
+
+.jadwal-eb {
+    float: left;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.word {
+    font-family: YAEsziFosYQ-0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 63px;
+    color: #000000;
+}
+.date {
+    font-family: YACgEcnnqB4-0;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+}
+.aa {
+    font-size: 32px;
+    line-height: 45px;
+    margin-top: 50px;
+}
+
+.ab {
+    font-size: 26px;
+    line-height: 31px;
+}
+.venue {
+    font-family: YACgEcnnqB4-0;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+}
+.ac {
+    font-size: 32px;
+    line-height: 45px;
+    margin-top: 70px;
+}
+
+.ad {
+    font-size: 23px;
+    line-height: 28px;
+}
+.dress-code {
+    font-family: YACgEcnnqB4-0;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+}
+.ae {
+    font-size: 32px;
+    line-height: 45px;
+    margin-top: 94px;
+}
+
+.af {
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.jadwal-ec {
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.invited {
+    color: #fe502d;
+    font-family: YAEZxhW1Plk-0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 94px;
+}
+
+.text {
+    font-family: YADK36X0n78-0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    color: #000000;
+}
+
+.fc {
+    margin-top: 50px;
+}
+
+.button {
+    border: 3px solid #000000;
+    margin-right: 200px;
+    padding: 15px 50px;
+    margin-top: 50px;
+    font-family: YADK36X0n78-0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    color: #fe502d;
+}
+
+.kesicon{
+    float:left;
+    width: 25%;
+}
+
+.iconkes{
+    position: relative;
+    margin: 80px 40%;
+}
+
+.iconkes img{
+    width: auto;
+    height: 200px;
+}
+
+.txtkes{
+    text-align: center;
+    width:200px;
+    position: absolute;
+}
+.iconfont-1 {
+    position: relative;
+    margin-left: 670px;
+    width: 30px;
+    margin-bottom: 150px;
+  }
+
+  .mapsket{
+    flex-direction: row;
+  }
+.iconlok img{
+    width: auto;
+    height: 100px;
+}
